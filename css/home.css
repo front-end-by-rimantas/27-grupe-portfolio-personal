@@ -1,6 +1,9 @@
 /* base import */
 @import './base/reset.css';
 
+/*layout*/
+@import './base/layout.css';
+
 /* 3rd-party import */
 @import './3rd-party/font-awesome.min.css';
 
@@ -8,3 +11,36 @@
 @import './components/button.css';
 
 /* CUSTOM STYLES FOR HOME PAGE GOES BELOW THIS COMMENT */
+
+/* Header start  */
+/* Header end */
+
+/* Hero start  */
+/* Hero end */
+
+/* Personal details start  */
+/* Personal details end */
+
+/* Offered services start  */
+/* Offered services end */
+
+/* Counter  start  */
+/* Counter end */
+
+/* Latest featured projects start  */
+/* Latest featured projects end */
+
+/* Client's feedback start  */
+/* Client's feedback end */
+
+/* Choose your plan start  */
+/* Choose your plan end */
+
+/* Blog start  */
+/* Blog end */
+
+/* Carusel 2/labels start  */
+/* Carusel 2/labels end */
+
+/* Footer start  */
+/* Footer end */

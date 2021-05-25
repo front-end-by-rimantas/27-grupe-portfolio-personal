@@ -1,5 +1,7 @@
 /* base import */
 @import './base/reset.css';
+@import './base/common.css';
+@import './base/variables.css';
 
 /*layout*/
 @import './base/layout.css';

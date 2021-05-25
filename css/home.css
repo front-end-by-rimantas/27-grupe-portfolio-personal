@@ -11,6 +11,7 @@
 
 /* components import */
 @import './components/button.css';
+@import './components/header.css';
 
 /* CUSTOM STYLES FOR HOME PAGE GOES BELOW THIS COMMENT */
 
@@ -44,5 +45,40 @@
 /* Carusel 2/labels start  */
 /* Carusel 2/labels end */
 
+<<<<<<< HEAD
+=======
+/* CUSTOM STYLES FOR HOME PAGE GOES BELOW THIS COMMENT */
+
+/* Header start  */
+/* Header end */
+
+/* Hero start  */
+/* Hero end */
+
+/* Personal details start  */
+/* Personal details end */
+
+/* Offered services start  */
+/* Offered services end */
+
+/* Counter  start  */
+/* Counter end */
+
+/* Latest featured projects start  */
+/* Latest featured projects end */
+
+/* Client's feedback start  */
+/* Client's feedback end */
+
+/* Choose your plan start  */
+/* Choose your plan end */
+
+/* Blog start  */
+/* Blog end */
+
+/* Carusel 2/labels start  */
+/* Carusel 2/labels end */
+
+>>>>>>> 5610781375c7fa0779dc45acea96f7eab0c5bf2c
 /* Footer start  */
 /* Footer end */

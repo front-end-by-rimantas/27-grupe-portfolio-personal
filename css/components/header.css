@@ -1,0 +1,12 @@
+.header .container {
+  display: grid;
+  text-align: center;
+}
+.headerImg {
+  height: 30px;
+  width: 150px;
+}
+.navBar {
+  text-decoration: none;
+  text-transform: uppercase;
+}

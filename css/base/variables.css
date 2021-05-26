@@ -1,0 +1,17 @@
+:root {
+  --color-primary: #ffff;
+
+  --color-secondary: #f9f9ff;
+
+  --color-dark: #000;
+
+  --color-grey: #a5a6a7;
+
+  --color-blue: #8392ff;
+
+  --color-gradient: linear-gradient(
+    90deg,
+    rgba(128, 149, 255, 1) 0%,
+    rgba(100, 186, 252, 1) 100%
+  );
+}

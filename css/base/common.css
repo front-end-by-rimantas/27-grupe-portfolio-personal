@@ -1,7 +1,26 @@
-/*.h1 {
+.heading {
+  text-align: center;
 }
 
+.heading.left {
+  text-align: left;
+}
 .p {
+  text-align: center;
 }
-*/
+.p.left {
+  text-align: left;
+}
 
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+
+/*kazka su .bg-gradient reik daryt, nes taip neleidzia :( */
+.bg-gradient {
+  background-color: var(--color-gradient);
+}

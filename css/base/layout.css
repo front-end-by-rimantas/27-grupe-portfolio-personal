@@ -519,7 +519,7 @@
   }
 }
 
-@media (min-width: 1399px) {
+/* @media (min-width: 1399px) {
   :root {
     --container-padding: 80px;
   }
@@ -606,10 +606,10 @@
   .row > .hidden-xxl {
     display: none;
   }
-  .row > .reverse-xxl {
-    float: right;
-  }
-  .row > .forward-xxl {
-    float: left;
-  }
+.row > .reverse-xxl {
+  float: right;
 }
+.row > .forward-xxl {
+  float: left;
+}
+} */

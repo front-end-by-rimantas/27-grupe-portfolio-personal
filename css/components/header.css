@@ -1,4 +1,6 @@
 #header {
+  background: var(--color-primary);
+  position: fixed;
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
@@ -13,7 +15,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  cursor: pointer;
 }
 .headerImg {
   float: left;
@@ -30,6 +31,7 @@
   line-height: 15px;
   text-decoration: none;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .navBar:hover {
   transition: all 0.3s;
@@ -90,4 +92,14 @@
 
 .dropdown2:hover .dropdown-content2 {
   display: block;
+}
+.hamburger {
+  background-color: transparent;
+  border: none;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.hamburger .fa {
+  font-size: 20px;
 }

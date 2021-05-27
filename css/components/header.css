@@ -1,12 +1,13 @@
 #header {
   background: var(--color-primary);
-  position: fixed;
+  position: sticky;
+  top: 0;
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
   margin-bottom: 0;
   padding: 15px;
-  height: 50px;
+  height: 70px;
 }
 
 #navRow {
@@ -49,7 +50,7 @@
   visibility: hidden;
   position: absolute;
   left: -150px;
-  top: 30px;
+  top: 40px;
   text-align: left;
   background-color: #f9f9f9;
   min-width: 200px;

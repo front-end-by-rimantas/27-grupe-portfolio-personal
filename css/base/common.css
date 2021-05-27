@@ -1,0 +1,42 @@
+/*.h1 {
+}
+
+.p {
+}
+*/
+
+.section-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.section-title.left {
+  text-align: left;
+}
+
+.section-description {
+  text-align: center;
+  font-size: 16px;
+  color: var(--color-grey);
+  margin-bottom: 15px;
+}
+.section-description.left {
+  text-align: left;
+}
+
+.bg-primary {
+  background: var(--color-primary);
+}
+
+.bg-secondary {
+  background: var(--color-secondary);
+}
+
+.bg-gradient {
+  background: var(--color-gradient);
+}
+
+.bg-lightGrey {
+  background: var(--color-lightGrey);
+}

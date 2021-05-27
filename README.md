@@ -11,7 +11,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://front-end-by-rimantas.github.io/27-grupe-portfolio/
 
-Design: https://preview.colorlib.com/theme/personal/
+Design: https://colorlib.com/preview/theme/personal/
 
 ## Project features
 

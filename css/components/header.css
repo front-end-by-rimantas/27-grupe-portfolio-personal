@@ -21,7 +21,7 @@
   width: 150px;
 }
 .navBar {
-  transition: all 0.3s;
+  vertical-align: bottom;
   align-items: center;
   color: black;
   margin: 12px;
@@ -32,6 +32,7 @@
   text-transform: uppercase;
 }
 .navBar:hover {
+  transition: all 0.3s;
   color: var(--color-blue);
 }
 .dropdown {
@@ -39,11 +40,11 @@
   margin-bottom: 0;
   position: relative;
   display: inline-block;
-  transition: all 0.5s;
 }
 
 .dropdown-content {
-  display: none;
+  transition: all 0.3s ease-in-out;
+  visibility: hidden;
   position: absolute;
   left: -150px;
   top: 30px;
@@ -57,8 +58,7 @@
 }
 
 .dropdown:hover .dropdown-content {
-  transition: all 0.8s;
-  display: block;
+  visibility: visible;
 }
 .dropdown-content .navBar {
   padding-top: 6px;
@@ -72,7 +72,6 @@
   margin-bottom: 0;
   position: relative;
   display: inline-block;
-  transition: all 0.5s;
 }
 
 .dropdown-content2 {
@@ -90,6 +89,5 @@
 }
 
 .dropdown2:hover .dropdown-content2 {
-  transition: all 0.8s;
   display: block;
 }

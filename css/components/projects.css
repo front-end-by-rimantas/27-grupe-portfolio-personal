@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 10px;
+  text-align: center;
+}
+.categories ul li {
+  display: inline-block;
+  position: relative;
+  color: #000000;
+  padding: 20px 20px;
+}
+.categories ul li.active {
+  background: var(--color-gradient);
+}
+ul {
+  text-align: center;
+}

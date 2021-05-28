@@ -19,6 +19,14 @@
 /* Header end */
 
 /* Hero start  */
+.hero {
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+.hero > .row {
+  margin-bottom: 0;
+}
 
 .hero > .row > div.col-12 {
   padding-bottom: 50px;
@@ -41,6 +49,10 @@
   font-size: 14px;
   margin-bottom: 20px;
   color: #777777;
+}
+.hero > .row > .heroImg {
+  object-fit: cover;
+  float: left;
 }
 
 /* Hero end */

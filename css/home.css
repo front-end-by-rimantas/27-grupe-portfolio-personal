@@ -40,6 +40,66 @@
 /* Choose your plan end */
 
 /* Blog start  */
+.container .blog {
+  margin-bottom: 80px;
+}
+.sectionRow {
+}
+.blogrow {
+}
+.zImg {
+}
+.imgZoom {
+  height: 200px;
+  overflow: hidden;
+}
+
+.zImg:hover {
+  transform: scale(1.5);
+}
+.blogPost {
+}
+.imgDes {
+  border-bottom: 1px solid lightgray;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.author {
+  font-weight: 600;
+  display: flex;
+  font-size: 13px;
+}
+.author p {
+  padding: 8px;
+}
+.author img {
+  height: 30px;
+  width: 30px;
+}
+.coments .fa {
+  transform: translateY(15%);
+  margin-left: 10px;
+  color: #b9babd;
+}
+.coments {
+  padding: 8px;
+  display: flex;
+  font-size: 13px;
+}
+.blogLink {
+  text-decoration: None;
+  color: black;
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.blogUnder {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
 /* Blog end */
 
 /* Carusel 2/labels start  */

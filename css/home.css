@@ -67,4 +67,61 @@
 /* Carusel 2/labels end */
 
 /* Footer start  */
-/* Footer end */
+.footerContainer {
+  background: black;
+}
+.footerRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footerRow h4 {
+  margin-bottom: 25px;
+  color: #fff;
+}
+.footerAbout p a {
+  text-decoration: none;
+  color: var(--color-blue);
+}
+.footerRow p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: var(--color-grey);
+}
+.footerAbout {
+  display: flex;
+  flex-direction: column;
+}
+.footerSocials {
+  display: flex;
+  align-content: stretch;
+  gap: 10px;
+  justify-content: left;
+}
+.footerSocials a {
+  text-decoration: none;
+  color: #fff;
+}
+.emailForm {
+  display: flex;
+}
+.emailFooter {
+  border: none;
+  flex-flow: row;
+  flex-grow: 1;
+  padding: 10px 30px 10px 10px;
+  background-color: var(--color-lightGrey);
+}
+.btnFooter {
+  border: none;
+  background: var(--color-gradient);
+  padding: 8px 15px 12px;
+}
+.btnFooter .fa {
+  transform: translateY(25%);
+  color: white;
+}
+footerFollow {
+  display: flex;
+}
+
+/* Footer end */ ;

@@ -28,6 +28,27 @@
 /* Offered services end */
 
 /* Counter  start  */
+.counter {
+  background: var(--color-gradient);
+  text-align: center;
+  text-transform: capitalize;
+  height: 330px;
+}
+.counter .row {
+  margin-top: 65px;
+}
+
+.countNum {
+  color: #fff;
+  font-size: 35px;
+}
+.countText {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
 /* Counter end */
 
 /* Latest featured projects start  */

@@ -1,10 +1,13 @@
 #header {
+  background: var(--color-primary);
+  position: sticky;
+  top: 0;
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
   margin-bottom: 0;
   padding: 15px;
-  height: 50px;
+  height: 70px;
 }
 
 #navRow {
@@ -13,7 +16,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  cursor: pointer;
 }
 .headerImg {
   float: left;
@@ -30,6 +32,7 @@
   line-height: 15px;
   text-decoration: none;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .navBar:hover {
   transition: all 0.3s;
@@ -47,7 +50,7 @@
   visibility: hidden;
   position: absolute;
   left: -150px;
-  top: 30px;
+  top: 40px;
   text-align: left;
   background-color: #f9f9f9;
   min-width: 200px;
@@ -90,4 +93,14 @@
 
 .dropdown2:hover .dropdown-content2 {
   display: block;
+}
+.hamburger {
+  background-color: transparent;
+  border: none;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.hamburger .fa {
+  font-size: 20px;
 }

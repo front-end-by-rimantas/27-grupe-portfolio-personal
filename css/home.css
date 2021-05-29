@@ -41,24 +41,22 @@
 
 /* Blog start  */
 .container .blog {
-  margin-bottom: 80px;
+  padding-bottom: 120px;
 }
-.sectionRow {
-}
-.blogrow {
-}
+
 .zImg {
+  padding: 0;
+  transition: transform 0.5s ease;
 }
 .imgZoom {
-  height: 200px;
   overflow: hidden;
 }
 
 .zImg:hover {
-  transform: scale(1.5);
+  padding: 0;
+  transform: scale(1.2);
 }
-.blogPost {
-}
+
 .imgDes {
   border-bottom: 1px solid lightgray;
   flex-wrap: wrap;

@@ -1,0 +1,62 @@
+.title h1 {
+  text-align: center;
+}
+.title p {
+  text-align: center;
+}
+.portfolio_title h4 {
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+.portfolio_title p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.categories ul li {
+  display: inline-block;
+  position: relative;
+  color: #000000;
+  padding: 15px 15px;
+}
+.categories ul li.active {
+  background: var(--color-gradient);
+}
+.categories ul {
+  text-align: center;
+}
+.images {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  display: block;
+}
+.single_portfolio {
+  position: relative;
+}
+.single_portfolio:hover .grid_item_overlay {
+  opacity: 1;
+}
+.grid_item_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0%;
+  right: 0;
+  width: 100%;
+  height: 83%;
+  background: var(--color-gradient);
+  opacity: 0;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+.center {
+  display: block;
+  padding-top: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}

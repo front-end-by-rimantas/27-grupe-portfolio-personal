@@ -19,6 +19,47 @@
 /* Header end */
 
 /* Hero start  */
+.hero {
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+.hero > .row {
+  margin-bottom: 0;
+}
+
+.hero > .row > div.col-12 {
+  padding-bottom: 50px;
+  margin-top: 0;
+}
+
+.hero > .row > div.col-md-6.col-lg-6 {
+  padding-bottom: 50px;
+  margin-top: 10%;
+}
+
+.hero > .row > div > .headingSmall {
+  text-transform: uppercase;
+  font-weight: lighter;
+  padding-bottom: 10px;
+}
+.hero > .row > div > .section-title.left {
+  text-transform: uppercase;
+}
+
+.hero > .row > div > .section-description.left {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #777777;
+}
+.hero > .row > .heroImg {
+  object-fit: cover;
+  float: left;
+  padding-top: 15px;
+  padding-right: 20px;
+  margin-left: 0;
+}
+
 /* Hero end */
 
 /* Personal details start  */
@@ -54,6 +95,27 @@
 /* Offered services end */
 
 /* Counter  start  */
+.counter {
+  background: var(--color-gradient);
+  text-align: center;
+  text-transform: capitalize;
+  height: 330px;
+}
+.counter .row {
+  margin-top: 65px;
+}
+
+.countNum {
+  color: #fff;
+  font-size: 35px;
+}
+.countText {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
 /* Counter end */
 
 /* Latest featured projects start  */

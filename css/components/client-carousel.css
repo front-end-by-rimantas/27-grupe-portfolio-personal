@@ -1,0 +1,19 @@
+.client-carousel {
+  background: var(--color-gradient);
+  height: 250px;
+  width: 100%;
+}
+.client-carousel .row {
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.client-carousel .client {
+  display: inline-block;
+  width: 100%;
+}
+.client-carousel .client img {
+  display: inline-block;
+  width: 50%;
+}

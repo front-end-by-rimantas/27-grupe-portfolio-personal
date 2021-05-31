@@ -1,0 +1,118 @@
+.choose-plan > .container > .row {
+  display: inline-block;
+  margin-top: 80px;
+}
+
+.choose-plan > .container > .row > .choose {
+  display: inline-block;
+  text-align: center;
+  background-color: #f9f9ff;
+  padding: 40px 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-bottom: 20px;
+}
+.choose-plan > .container > .row > .choose:hover {
+  background: var(--color-gradient);
+  transform: scale(1.05);
+}
+
+.choose-plan > .container > .row > .choose > .uno {
+  font-weight: 300;
+  font-size: 36px;
+  background-color: rgba(132, 144, 255, 0.1);
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  border: 30px solid rgba(132, 144, 255, 0.1);
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  align-items: center;
+}
+
+.choose-plan > .container > .row > .choose:hover .uno {
+  color: #fff;
+  border-color: #8392ff;
+}
+
+.choose-plan > .container > .row > .choose > .price-title {
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.choose-plan > .container > .row > .choose:hover .price-title {
+  color: #fff;
+}
+
+.choose-plan > .container > .row > .choose:hover p {
+  color: #fff;
+}
+
+.choose-plan > .container > .row > .choose > .price-list p:first-child {
+  margin-top: 30px;
+  padding: 10px 0;
+  border-top: 1px #f9f9ff;
+}
+
+.choose-plan > .container > .row > .choose:hover .price-list p:first-child {
+  color: #fff;
+}
+.choose-plan > .container > .row > .choose > .price-list > .uno {
+  padding: 10px 0;
+  border-top: 1px #f9f9ff;
+}
+.choose-plan > .container > .row > .choose:hover .price-list .uno {
+  color: #fff;
+}
+
+.choose-plan > .container > .row > .choose > .price-list p:last-child {
+  padding: 10px 0;
+  border-top: 1px #fff;
+  border-bottom: 1px #fff;
+  margin-bottom: 30px;
+}
+
+.choose-plan > .container > .row > .choose:hover .price-list p:last-child {
+  color: #fff;
+}
+
+.choose-plan > .container > .row > .choose h3 {
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+.choose-plan > .container > .row > .choose:hover h3 {
+  display: none;
+}
+
+.choose-plan > .container > .row > .choose a {
+  display: none;
+}
+.choose-plan > .container > .row > .choose:hover a {
+  background-color: #fff;
+  display: inline-block;
+  width: 100%;
+  padding: 10px 50px;
+  color: #000;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .choose-plan > .container > .row > .choose {
+    flex: 0 0 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .choose-plan > .container > .row > .choose {
+    flex: 0 0 25%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+}

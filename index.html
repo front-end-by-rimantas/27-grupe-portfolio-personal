@@ -7,7 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal</title>
     <link rel="stylesheet" href="./css/home.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -47,7 +52,7 @@
                 </div>
                 <a class="navBar" href="#">contact</a>
             </div>
-            <div class="col-1 ml-9 visible-md hidden-lg">
+            <div class="col-1 ml-8 visible-md hidden-lg">
                 <button class="hamburger"><i class="fa fa-bars"></i></button>
             </div>
 
@@ -69,19 +74,19 @@
     <!-- Hero end -->
 
     <!-- Personal details start  -->
-    <div class="container">
+    <div class="personalD container">
         <div class="row">
-            <img id="img2" class="col-10 col-md-6 col-lg-5" src="./img/personalDetails.jpg" alt="img2" />
-            <div id="rightColumn" class="col-12 col-md-6 col-lg-6">
-                <h2>about me</h2>
-                <h1>personal details</h1>
-                <p>
+            <img class="PDimg col-10 col-md-6 col-lg-6" src="./img/personalDetails.jpg" alt="img2" />
+            <div class="col-12 col-md-6 col-lg-6">
+                <h2 class="titleSmall">about me</h2>
+                <h1 class="titleBig">personal details</h1>
+                <p class="PDparagraph">
                     Here, I focus on a range of items and features that we use in life
                     without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur
                     adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco.
                 </p>
-                <a href="#" class="btn2">view full details</a>
+                <a href="#" class="btn">view full details</a>
             </div>
         </div>
     </div>
@@ -138,7 +143,6 @@
     <!-- Counter  start  -->
     <div class="container counter">
         <div class="row  ">
-
             <div class="col-12 col-sm-12 col-md-6  col-lg-3">
                 <h1 class="countNum">2536</h1>
                 <p class="countText">projects completed</p>
@@ -352,39 +356,57 @@
     <!-- Choose your plan end -->
 
     <!-- Blog start  -->
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-6 ml-lg-3">
+    <div class="container blog" style="background:var(--color-lightGrey">
+        <div class="row sectionRow">
+            <div class="col-12 col-md-6 ml-md-3 col-lg-8 ml-lg-2">
                 <h1 class="section-title">Latest Posts From Our Blog</h1>
                 <p class="section-description">You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving and expanding the business</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-md-4 col-lg-4">
-                <img src="#" alt="bigImg">
-                <img src="#" alt="smallImg">
-                <p>Mark WIENS</p>
-                <span>13Th Dec <i class="fa fa-heart-o"></i>13 <i class="fa fa-comment-o"></i> 04</span>
-                <a href="#">BREAK THROUGH SELF DOUBT AND FEAR</a>
-                <p>Dream interpretation has many forms; it can be done be done for the sake of fun, hobby or can be taken up as a serious career.</p>
+        <div class="row blogRow">
+            <div class="col-12 col-md-4 col-lg-4 ">
+                <div class="imgZoom">
+                    <img src="./img/blog1.jpg" class="zImg container-fluid " alt="bigImg">
+                </div>
+                <div class="imgDes">
+                    <div class="author">
+                        <img src="./img/author.jpg" alt="smallImg">
+                        <p>Mark WIENS</p>
+                    </div>
+                    <div class="coments">13Th Dec <i class="fa fa-heart-o"></i>13 <i class="fa fa-comment-o"></i> 04</div>
+                </div>
+                <a href="#" class="blogLink">BREAK THROUGH SELF DOUBT AND FEAR</a>
+                <p class="blogUnder">Dream interpretation has many forms; it can be done be done for the sake of fun, hobby or can be taken up as a serious career.</p>
 
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <img src="#" alt="bigImg">
-                <img src="#" alt="smallImg">
-                <p>Mark WIENS</p>
-                <span>13Th Dec <i class="fa fa-heart-o"></i>13 <i class="fa fa-comment-o"></i> 04</span>
-                <a href="#">PORTABLE FASHION FOR YOUNG WOMEN</a>
-                <p>You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving.</p>
+            <div class="col-12 col-md-4 col-lg-4  blogPost">
+                <div class="imgZoom">
+                    <img src="./img/blog2.jpg" class="zImg container-fluid " alt="bigImg">
+                </div>
+                <div class="imgDes">
+                    <div class="author">
+                        <img src="./img/author.jpg" alt="smallImg">
+                        <p>Mark WIENS</p>
+                    </div>
+                    <div class="coments">13Th Dec <i class="fa fa-heart-o"></i>13 <i class="fa fa-comment-o"></i> 04</div>
+                </div>
+                <a href="#" class="blogLink">PORTABLE FASHION FOR YOUNG WOMEN</a>
+                <p class="blogUnder">You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving.</p>
 
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <img src="#" alt="bigImg">
-                <img src="#" alt="smallImg">
-                <p>Mark WIENS</p>
-                <span>13Th Dec <i class="fa fa-heart-o"></i>13 <i class="fa fa-comment-o"></i> 04</span>
-                <a href="#">DO DREAMS SERVE AS A PREMONITION</a>
-                <p>So many of us are demotivated to achieve anything. Such people are not enthusiastic about anything. They don’t want to work involved.</p>
+            <div class="col-12 col-md-4 col-lg-4 class=" blogPost">
+                <div class="imgZoom">
+                    <img src="./img/blog 3.jpg" class="zImg container-fluid " alt="bigImg">
+                </div>
+                <div class="imgDes">
+                    <div class="author">
+                        <img src="./img/author.jpg" alt="smallImg">
+                        <p>Mark WIENS</p>
+                    </div>
+                    <div class="coments">13Th Dec <i class="fa fa-heart-o"></i>13 <i class="fa fa-comment-o"></i> 04</div>
+                </div>
+                <a href="#" class="blogLink">DO DREAMS SERVE AS A PREMONITION</a>
+                <p class="blogUnder">So many of us are demotivated to achieve anything. Such people are not enthusiastic about anything. They don’t want to work involved.</p>
 
             </div>
         </div>
@@ -393,48 +415,74 @@
     <!-- Blog end -->
 
     <!-- Carusel 2/labels start  -->
-    <div class="container">
+    <div class="container client-carousel">
         <div class="row">
-            <div class="col-12">
-                <a href=""><img src="" alt="" /></a>
-                <a href=""><img src="" alt="" /></a>
-                <a href=""><img src="" alt="" /></a>
-                <a href=""><img src="" alt="" /></a>
-                <a href=""><img src="" alt="" /></a>
-            </div>
+            <a href="#" class="client">
+                <img src="./img/logo1.jpg" alt="">
+            </a>
+            <a href="#" class="client">
+                <img src="./img/logo2.jpg" alt="">
+            </a>
+            <a href="#" class="client">
+                <img src="./img/logo3.jpg" alt="">
+            </a>
+            <a href="#" class="client">
+                <img src="./img/logo4.jpg" alt="">
+            </a>
+            <a href="#" class="client">
+                <img src="./img/logo5.jpg" alt="">
+            </a>
         </div>
     </div>
-
     <!-- Carusel 2/labels end -->
 
     <!-- Footer start  -->
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-6 col-lg-4">
-                <h1></h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatum pariatur asperiores possimus blanditiis modi amet atque laborum! Dignissimos nesciunt doloribus omnis maxime necessitatibus, quibusdam at placeat nihil labore culpa.</p>
-                <a href="">Colorlib</a>
+    <div class="container footerContainer">
+        <div class="row footerRow">
+            <div class="col-12 col-sm-6 col-lg-5 footerAbout">
+                <h4>About Me</h4>
+                <p>We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience</p>
+                <p> Copyrights &copy;2020 All rights reserved|This template is made with ♥ By <a href="">Colorlib</a></p>
+
             </div>
-            <div class="col-12 col-sm-6 col-lg-4">
-                <h1></h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eius quidem iusto sit quod, nostrum sint laboriosam nulla. Vel recusandae maiores nihil quidem architecto at esse asperiores reiciendis aliquid optio!</p>
-                <form class="col-12 col-sd-6 ml-md-1">
-                    <input placeholder="Email" type="text" required>
-                    <button type="submit"><i class="fa fa-paper-plane"></i>Send message</button>
+            <div class="col-12 col-sm-6 col-lg-5 ">
+                <h4>Newsletter</h4>
+                <p>Stay update with uor latest trends</p>
+                <form class="col-12 col-sd-6 ml-md-1 emailForm ">
+                    <input class="emailFooter" placeholder="Enter Email Adress" type="email" required>
+                    <button class="btnFooter" type="submit"><i class="fa fa-arrow-right"></i></button>
                 </form>
             </div>
+
             <div class="col-12 col-sm-6 col-lg-4">
                 <h1></h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatum pariatur asperiores possimus blanditiis modi amet atque laborum! Dignissimos nesciunt doloribus omnis maxime necessitatibus, quibusdam at placeat nihil labore culpa.</p>
-                <div>
-                    <a href="#" class="fa fa-facebook" target="_blank"></a>
-                    <a href="#" class="fa fa-twitter" target="_blank"></a>
-                    <a href="#" class="fa fa-google-plus" target="_blank"></a>
-                    <a href="#" class="fa fa-vine" target="_blank"></a>
+
+                <a href="#" class="fa fa-facebook" target="_blank"></a>
+                <a href="#" class="fa fa-twitter" target="_blank"></a>
+                <a href="#" class="fa fa-google-plus" target="_blank"></a>
+                <a href="#" class="fa fa-vine" target="_blank"></a>
+            </div>
+        </div>
+        <!-- Footer end -->
+
+            <div class="col-12 col-sm-6 col-lg-2 ">
+                <div class="footerFollow">
+                    <h4>Follow Me</h4>
+                    <p>Let us bes social</p>
+                    <div class="footerSocials">
+                        <a href="#" class="fa fa-facebook" target="_blank"></a>
+                        <a href="#" class="fa fa-twitter" target="_blank"></a>
+                        <a href="#" class="fa fa-dribbble" target="_blank"></a>
+                        <a href="#" class="fa fa-behance" target="_blank"></a>
+                    </div>
                 </div>
             </div>
-            <!-- Footer end -->
-            <script src="./js/home.js" type="module" defer></script>
+        </div>
+        <!-- Footer end -->
+
+
+        <script src="./js/home.js" type="module" defer></script>
 </body>
 
 </html>

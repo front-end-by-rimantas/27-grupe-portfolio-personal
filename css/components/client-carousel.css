@@ -1,0 +1,31 @@
+.client-carousel {
+  background: var(--color-gradient);
+  height: 250px;
+  width: 100%;
+}
+.client-carousel .row {
+  padding-left: 10%;
+  padding-right: 10%;
+  position: relative;
+  justify-content: space-between;
+  display: flex;
+  overflow: hidden;
+}
+.client-carousel .client {
+  display: inline-block;
+  width: 100%;
+  animation: slideshow 7s linear infinite;
+  animation-delay: 1s;
+}
+.client-carousel .client img {
+  display: inline-block;
+  width: 50%;
+}
+@keyframes slideshow {
+  0% {
+    transform: translate3d(1500px, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1692px, 0, 0);
+  }
+}

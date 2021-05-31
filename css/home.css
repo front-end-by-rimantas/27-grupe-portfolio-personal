@@ -70,7 +70,7 @@
 .footerContainer {
   background: black;
 }
-.footerRow {
+.row .footerRow {
   display: flex;
   flex-wrap: wrap;
 }
@@ -78,22 +78,21 @@
   margin-bottom: 25px;
   color: #fff;
 }
-.footerAbout p a {
-  text-decoration: none;
-  color: var(--color-blue);
-}
 .footerRow p {
   font-size: 14px;
   margin-bottom: 15px;
   color: var(--color-grey);
 }
+.footerAbout p a {
+  text-decoration: none;
+  color: var(--color-blue);
+}
+.news {
+}
 .footerAbout {
-  display: flex;
-  flex-direction: column;
 }
 .footerSocials {
   display: flex;
-  align-content: stretch;
   gap: 10px;
   justify-content: left;
 }
@@ -101,7 +100,7 @@
   text-decoration: none;
   color: #fff;
 }
-.emailForm {
+.footerContainer .emailForm {
   display: flex;
 }
 .emailFooter {
@@ -121,7 +120,22 @@
   color: white;
 }
 footerFollow {
+}
+.footerContainer .footerRow .wrapui .col-md-12 {
   display: flex;
+  flex-wrap: wrap;
+}
+.col-lg-5 .news {
+  flex: 1 0 40%;
+}
+.col-lg-5 .footerAbout {
+  flex: 0 0 40%;
+}
+.col-md-6 .news {
+  flex: 1 0 100%;
+}
+.col-md-6 .footerAbout {
+  flex: 0 0 100%;
 }
 
 /* Footer end */ ;

@@ -12,16 +12,83 @@
 /* components import */
 @import './components/button.css';
 @import './components/header.css';
-
+@import './components/projects.css';
 /* CUSTOM STYLES FOR HOME PAGE GOES BELOW THIS COMMENT */
 
 /* Header start  */
 /* Header end */
 
 /* Hero start  */
+.hero {
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+.hero > .row {
+  margin-bottom: 0;
+}
+
+.hero > .row > div.col-12 {
+  padding-bottom: 50px;
+  margin-top: 0;
+}
+
+.hero > .row > div.col-md-6.col-lg-6 {
+  padding-bottom: 50px;
+  margin-top: 10%;
+}
+
+.hero > .row > div > .headingSmall {
+  text-transform: uppercase;
+  font-weight: lighter;
+  padding-bottom: 10px;
+}
+.hero > .row > div > .section-title.left {
+  text-transform: uppercase;
+}
+
+.hero > .row > div > .section-description.left {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #777777;
+}
+.hero > .row > .heroImg {
+  object-fit: cover;
+  float: left;
+  padding-top: 15px;
+  padding-right: 20px;
+  margin-left: 0;
+}
+
 /* Hero end */
 
 /* Personal details start  */
+#img2 {
+  width: 500px;
+  border: 20px solid #fbfaff;
+  border-radius: 25px;
+}
+#rightColumn {
+  margin: 15px 0px 0px 70px;
+}
+#rightColumn > h2 {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 13px;
+  margin: 0px 0px 40px 0px;
+  font-weight: 100;
+}
+#rightColumn > h1 {
+  text-transform: uppercase;
+  text-align: left;
+  margin: 0px 0px 20px 0px;
+}
+#rightColumn > p {
+  font-size: 16px;
+  text-align: left;
+  line-height: 1.5;
+  margin: 0px 0px 30px 0px;
+}
 /* Personal details end */
 
 /* Offered services start  */

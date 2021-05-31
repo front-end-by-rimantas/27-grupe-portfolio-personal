@@ -13,7 +13,10 @@
 @import './components/button.css';
 @import './components/header.css';
 @import './components/projects.css';
+@import './components/choose.css';
+
 @import './components/client-carousel.css';
+
 /* CUSTOM STYLES FOR HOME PAGE GOES BELOW THIS COMMENT */
 
 /* Header start  */
@@ -142,7 +145,10 @@
 /* Client's feedback start  */
 /* Client's feedback end */
 
-/* Choose your plan start  */
+/* Choose your plan start */
+.choose-plan > .container > .row > .section-description p {
+  font-size: 14px;
+}
 /* Choose your plan end */
 
 /* Blog start  */

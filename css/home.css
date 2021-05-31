@@ -63,31 +63,48 @@
 /* Hero end */
 
 /* Personal details start  */
-#img2 {
-  width: 500px;
-  border: 20px solid #fbfaff;
-  border-radius: 25px;
+.personalD {
+  padding-top: 10px;
+  padding-bottom: 0;
 }
-#rightColumn {
-  margin: 15px 0px 0px 70px;
+
+.personalD > .row {
+  margin-bottom: 0;
 }
-#rightColumn > h2 {
+
+.personalD > .row > div.col-12 {
+  padding-bottom: 50px;
+  margin-top: 0;
+}
+
+.personalD > .row > div.col-md-6.col-lg-6 {
+  padding-bottom: 50px;
+  margin-top: 5%;
+}
+
+.personalD > .row > div > .titleSmall {
   text-transform: uppercase;
-  text-align: left;
-  font-size: 13px;
-  margin: 0px 0px 40px 0px;
-  font-weight: 100;
+  font-weight: lighter;
+  font-size: 14px;
+  padding-bottom: 30px;
 }
-#rightColumn > h1 {
+.personalD > .row > div > .titleBig {
   text-transform: uppercase;
-  text-align: left;
-  margin: 0px 0px 20px 0px;
+  padding-bottom: 25px;
 }
-#rightColumn > p {
-  font-size: 16px;
-  text-align: left;
-  line-height: 1.5;
-  margin: 0px 0px 30px 0px;
+
+.personalD > .row > div > .PDparagraph {
+  font-size: 14px;
+  padding-bottom: 30px;
+  color: #777777;
+}
+.personalD > .row > .PDimg {
+  object-fit: cover;
+  float: left;
+  padding: 15px 0px 0px 20px;
+  margin-right: 0px;
+  border: 18px solid #fcfbff;
+  border-radius: 20px;
 }
 /* Personal details end */
 

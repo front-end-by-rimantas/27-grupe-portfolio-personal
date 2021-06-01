@@ -1,0 +1,54 @@
+.feedback-container {
+  background: var(--color-lightGrey);
+  padding: 0;
+}
+.Fb-flex-row {
+  flex-direction: column;
+  justify-content: center;
+  float: none;
+}
+.fb-coment {
+  justify-content: center;
+  text-align: center;
+  line-height: 1, 6em;
+  font-size: 13px;
+  font-weight: 100;
+
+  background: var(--color-primary);
+  color: var(--color-grey);
+}
+
+.fbImg {
+  float: left;
+  width: 34px;
+}
+.Fb-grid-container {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 50px;
+  width: 100%;
+  grid-gap: 30px;
+  background: var(--color-lightGrey);
+  padding-left: 100px;
+  padding-bottom: 100px;
+  
+  
+ 
+}
+
+.Fb-grid-container > div {
+  background-color: var(--color-primary);
+  text-align: center;
+ 
+
+.fbBtn {
+  line-height: 25px;
+  margin-left: ;
+}
+.fbBtn:hover {
+  color: blue;
+  opacity: 1;
+
+}
+.Fb-btnDown {
+}

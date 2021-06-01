@@ -101,7 +101,7 @@
 .personalD > .row > div > .PDparagraph {
   font-size: 14px;
   padding-bottom: 30px;
-  color: #777777;
+  color: color: var(--color-grey);
 }
 .personalD > .row > .PDimg {
   object-fit: cover;

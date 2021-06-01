@@ -1,0 +1,33 @@
+.row.offered-services {
+  text-align: center;
+}
+
+#icons {
+  font-size: 40px;
+  color: white;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  margin-bottom: 20px;
+}
+
+.row.offered-services p {
+  text-align: center;
+  font-size: 16px;
+  color: var(--color-grey);
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.row.offered-services a {
+  text-decoration: none;
+  font-size: 19px;
+  color: #000;
+  font-weight: bolder;
+}
+
+#icons:hover:after {
+  color: var(--color-blue);
+}
+
+.row.offered-services a:hover {
+  color: var(--color-blue);
+}

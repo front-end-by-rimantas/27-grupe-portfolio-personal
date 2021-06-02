@@ -2,7 +2,7 @@
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 950;
   top: 0;
   left: 0;
   background-color: var(--color-dark);
@@ -19,8 +19,16 @@
 }
 
 .sidebarClose {
-  /*display: none;*/
-  color: red;
+  position: absolute;
+  top: 15px;
+  right: 120px;
+  display: none;
+  z-index: 999;
+  background-color: transparent;
+  border: none;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
 }
 
 .sidebarClose .fa {
@@ -28,4 +36,12 @@
 }
 
 .sidebarEngade {
+}
+.sidebarOverlay {
+  z-index: 900;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
 }

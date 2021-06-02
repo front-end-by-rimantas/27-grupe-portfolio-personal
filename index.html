@@ -14,7 +14,7 @@
 <body>
 
     <!-- Header start -->
-    <div id="mySidebar" class="sidebar">
+    <div id="headerSidebar" class="sidebar">
 
         <a class="navBar" href="#" style="color: var(--color-blue);">home</a>
         <a class="navBar" href="#">about</a>
@@ -27,14 +27,7 @@
     </div>
 
 
-    <script>
-        function openNav() {
-            document.getElementById("mySidebar").style.width = "250px";
-        }
-        function closeNav() {
-            document.getElementById("mySidebar").style.width = "0"
-        }
-    </script>
+
     <header class="container" id="header">
         <div class="row" id="navRow">
             <div class="col-3">
@@ -68,9 +61,9 @@
                 </div>
                 <a class="navBar" href="#">contact</a>
             </div>
-            <div class="col-1 ml-8 visible-md hidden-lg">
-                <button class="openbtn hamburger" onclick="openNav()"><i class=" fa fa-bars"></i></button>
-                <button class="closebtn hamburger" onclick="closeNav()"><i class="fa fa-close"></button>
+            <div class="col-1 ml-8 visible-md hidden-lg sidebarEngade">
+                <button id=hamburger class="hamburger"><i class=" fa fa-bars"></i></button>
+                <button id=sidebarClose class="sidebarClose hamburger"><i class="fa fa-close"></i></button>
             </div>
 
         </div>
@@ -491,7 +484,7 @@
         <!-- Footer end -->
 
 
-        <script src="./js/home.js"></script>
+        <script src="./js/home.js" type="module" defer></script>
 </body>
 
 </html>

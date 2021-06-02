@@ -95,7 +95,7 @@
   display: block;
 }
 .hamburger {
-  display: inline-block;
+  display: block;
   background-color: transparent;
   border: none;
   height: 30px;

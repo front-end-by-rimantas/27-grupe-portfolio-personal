@@ -18,15 +18,14 @@
   display: block;
 }
 
-.closebtn {
-  display: inline-block;
+.sidebarClose {
+  /*display: none;*/
   color: red;
-  background-color: transparent;
-  border: none;
-  height: 30px;
-  width: 30px;
-  cursor: pointer;
-  top: 0;
-  right: 25px;
-  font-size: 20px;
+}
+
+.sidebarClose .fa {
+  font-size: 30px;
+}
+
+.sidebarEngade {
 }

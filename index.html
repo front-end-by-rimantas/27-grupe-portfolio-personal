@@ -69,6 +69,15 @@
             </div>
 
         </div>
+        <script>
+            navBar = document.getElementById(header);
+            document.addEventListener('scroll', () => {
+                if (scrollY > 40) {
+                    navBar.classList.add('activ');
+                }
+            }
+            )
+        </script>
     </header>
     <!-- Header end -->
     <!-- Hero start  -->

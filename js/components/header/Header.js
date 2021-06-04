@@ -18,6 +18,8 @@ function header() {
         close.style.display = 'none';
         sidebarOverlay.style.display = 'none';
     })
+
+
 }
 
 function toggleSidebar(isVisible) {

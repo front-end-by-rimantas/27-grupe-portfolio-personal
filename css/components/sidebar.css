@@ -21,7 +21,7 @@
 .sidebarClose {
   position: absolute;
   top: 15px;
-  right: 120px;
+  right: 30px;
   display: none;
   z-index: 999;
   background-color: transparent;

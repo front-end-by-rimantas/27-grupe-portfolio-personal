@@ -4,10 +4,11 @@ import { renderSidebar } from './components/header/SidebarRender.js'
 import { header } from './components/header/Header.js';
 import { shadow } from './components/header/HeaderShadow.js'
 import { renderBlog } from './components/blog/renderBlog.js'
+import { navBarData } from './data/Header/navbarData.js';
 // EXECUTION
 renderHeader('#navRow');
 shadow();
-renderSidebar('#headerSidebar')
+renderSidebar('#headerSidebar', navBarData)
 renderBlog('#blog');
 header();
 

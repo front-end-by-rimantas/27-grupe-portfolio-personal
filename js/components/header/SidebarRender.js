@@ -1,11 +1,11 @@
-function renderSidebar(selector) {
+function renderSidebar(selector, data) {
 
     const DOM = document.querySelector(selector);
-    const navBar = ['about', 'services', 'portfolio', 'pricing', 'blog', 'pages', 'contact']
+
     let HTML = '';
 
-    for (let i = 0; i < navBar.length; i++)
-        HTML += `<a class="navBar" href="#">${navBar[i]}</a>`;
+    for (const nav of data)
+        HTML += `<a class="navBar" href="${nav.href}">${nav.name}</a>`;
     DOM.innerHTML = HTML;
 }
 

@@ -22,7 +22,7 @@
   padding: 15px 15px;
 }
 .categories ul li.active {
-  background: var(--color-gradient);
+  color: var(--color-blue);
 }
 .categories ul {
   text-align: center;
@@ -66,4 +66,12 @@
 }
 .title-project {
   padding-bottom: 0;
+}
+.categories ul li::after {
+  content: '';
+  display: block;
+  width: 15px;
+  position: absolute;
+  height: 2px;
+  background: #000000;
 }

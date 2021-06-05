@@ -14,44 +14,11 @@
 <body>
 
     <!-- Header start -->
-
-    <header class="container" id="header">
-        <div class="row" id="navRow">
-            <div class="col-3">
-                <img class="headerImg" src="./img/headerLogo.png" alt="PORTFOLIO">
-            </div>
-            <div class=" hidden col-8 ml-lg-1  visible-lg  ">
-                <a class="navBar" href="#" style="color: var(--color-blue);">home</a>
-                <a class="navBar" href="#">about</a>
-                <a class="navBar" href="#">services</a>
-                <a class="navBar" href="#">portfolio</a>
-                <a class="navBar" href="#">pricing</a>
-                <div class="navBar dropdown ">
-                    <span>blog <i class="fa fa-angle-down"></i></span>
-                    <div class="dropdown-content">
-                        <p class="navBar">blog home</p>
-                        <p class="navBar">blog single</p>
-                    </div>
-                </div>
-                <div class="navBar dropdown ">
-                    <span>pages <i class="fa fa-angle-down"></i></span>
-                    <div class="dropdown-content">
-                        <p class="navBar">elements</p>
-                        <div class="dropdown2">
-                            <p class="navBar">level 2 <i class="fa fa-angle-right"></i></p>
-                            <div class="dropdown-content2">
-                                <p class="navBar">item 1</p>
-                                <p class="navBar">item 2</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a class="navBar" href="#">contact</a>
-            </div>
-            <div class="col-1 ml-8 visible-md hidden-lg">
-                <button class="hamburger"><i class="fa fa-bars"></i></button>
-            </div>
-
+    <div id="headerSidebar" class="sidebar">
+    </div>
+    <div class="sidebarOverlay"><button class="sidebarClose "><i class="fa fa-close"></i></button></div>
+    <header id=headerContainer class="container headerContainer">
+        <div id="navRow" class="row col-3"></div>
         </div>
     </header>
     <!-- Header end -->
@@ -357,60 +324,8 @@
     <!-- Choose your plan end -->
 
     <!-- Blog start  -->
-    <div class="container blog" style="background:var(--color-lightGrey">
-        <div class="row sectionRow">
-            <div class="col-12 col-md-6 ml-md-3 col-lg-8 ml-lg-2">
-                <h1 class="section-title">Latest Posts From Our Blog</h1>
-                <p class="section-description">You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving and expanding the business</p>
-            </div>
-        </div>
-        <div class="row blogRow">
-            <div class="col-12 col-md-4 col-lg-4 ">
-                <div class="imgZoom">
-                    <img src="./img/blog1.jpg" class="zImg container-fluid " alt="bigImg">
-                </div>
-                <div class="imgDes">
-                    <div class="author">
-                        <img src="./img/author.jpg" alt="smallImg">
-                        <p>Mark WIENS</p>
-                    </div>
-                    <div class="coments">13Th Dec <i class="fa fa-heart-o"></i>13 <i class="fa fa-comment-o"></i> 04</div>
-                </div>
-                <a href="#" class="blogLink">BREAK THROUGH SELF DOUBT AND FEAR</a>
-                <p class="blogUnder">Dream interpretation has many forms; it can be done be done for the sake of fun, hobby or can be taken up as a serious career.</p>
+    <div id="blog" class="container blog" style="background:var(--color-lightGrey)">
 
-            </div>
-            <div class="col-12 col-md-4 col-lg-4  blogPost">
-                <div class="imgZoom">
-                    <img src="./img/blog2.jpg" class="zImg container-fluid " alt="bigImg">
-                </div>
-                <div class="imgDes">
-                    <div class="author">
-                        <img src="./img/author.jpg" alt="smallImg">
-                        <p>Mark WIENS</p>
-                    </div>
-                    <div class="coments">13Th Dec <i class="fa fa-heart-o"></i>13 <i class="fa fa-comment-o"></i> 04</div>
-                </div>
-                <a href="#" class="blogLink">PORTABLE FASHION FOR YOUNG WOMEN</a>
-                <p class="blogUnder">You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving.</p>
-
-            </div>
-            <div class="col-12 col-md-4 col-lg-4 class=" blogPost">
-                <div class="imgZoom">
-                    <img src="./img/blog 3.jpg" class="zImg container-fluid " alt="bigImg">
-                </div>
-                <div class="imgDes">
-                    <div class="author">
-                        <img src="./img/author.jpg" alt="smallImg">
-                        <p>Mark WIENS</p>
-                    </div>
-                    <div class="coments">13Th Dec <i class="fa fa-heart-o"></i>13 <i class="fa fa-comment-o"></i> 04</div>
-                </div>
-                <a href="#" class="blogLink">DO DREAMS SERVE AS A PREMONITION</a>
-                <p class="blogUnder">So many of us are demotivated to achieve anything. Such people are not enthusiastic about anything. They don’t want to work involved.</p>
-
-            </div>
-        </div>
     </div>
 
     <!-- Blog end -->

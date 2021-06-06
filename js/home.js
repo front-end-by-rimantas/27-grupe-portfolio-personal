@@ -7,6 +7,9 @@ import { renderBlog } from './components/blog/renderBlog.js'
 import { navBarData } from './data/Header/navbarData.js';
 import { offeredServices } from './components/offeredServices/offeredServices.js';
 import { offeredData } from './data/offeredServicesData.js'
+import { counter } from './components/counter/counter.js';
+import { counterData } from './data/counterData/counterData.js'
+
 
 // EXECUTION
 renderHeader('#navRow');
@@ -15,6 +18,7 @@ renderSidebar('#headerSidebar', navBarData)
 renderBlog('#blog');
 header();
 new offeredServices(offeredData);
+new counter(counterData)
 
 
 

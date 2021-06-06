@@ -24,10 +24,6 @@ class offeredServices {
             </div>`;
         }
     }
-
-    addClass() {
-
-    }
 }
 
 

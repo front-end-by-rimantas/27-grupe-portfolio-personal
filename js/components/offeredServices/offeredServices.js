@@ -14,7 +14,7 @@ class offeredServices {
             let text = this.data.list[i].text;
 
 
-            this.selector.innerHTML += `<div class="col-12 col-md-6 col-lg-4"></div>
+            this.selector.innerHTML += `<div class="col-12 col-md-6 col-lg-4">
             <div id="icons"><i class="${icon}">
             </i>
             </div>
@@ -23,10 +23,6 @@ class offeredServices {
             <p>${text}</p>
             </div>`;
         }
-    }
-
-    addClass() {
-
     }
 }
 

@@ -26,22 +26,17 @@
 
 /* Hero start  */
 .hero {
-  padding-top: 10px;
+  margin-bottom: 0;
   padding-bottom: 0;
+  padding-top: 5%;
 }
 
-.hero > .row {
+.hero .row {
   margin-bottom: 0;
 }
 
-.hero div.col-12 {
-  padding-bottom: 50px;
-  margin-top: 0;
-}
-
-.hero div.col-12 {
-  padding-bottom: 50px;
-  margin-top: 10%;
+.hero .col-12 {
+  margin-bottom: 60px;
 }
 
 .hero h4 {
@@ -63,19 +58,27 @@
 .hero img {
   object-fit: cover;
   float: left;
-  padding-top: 15px;
-  padding-right: 20px;
   margin-left: 0;
 }
 
 /* hero responsive features */
 
 @media (min-width: 575px) {
+  .hero {
+    padding-top: 0;
+  }
   .hero > .row h1 {
     font-size: 30px;
   }
+
+  .hero .col-12 {
+    margin-bottom: 10px;
+  }
 }
 @media (min-width: 767px) {
+  .hero {
+    padding-top: 60px;
+  }
   .hero > .row h1 {
     font-size: 40px;
   }

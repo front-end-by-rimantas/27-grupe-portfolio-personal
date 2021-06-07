@@ -62,11 +62,11 @@
 .choose-plan > .container > .row > .choose:hover .price-list p:first-child {
   color: #fff;
 }
-.choose-plan > .container > .row > .choose > .price-list > .duo {
+.choose-plan > .container > .row > .choose > .price-list p:nth-child(2) {
   padding: 10px 0;
   border-top: 1px #f9f9ff;
 }
-.choose-plan > .container > .row > .choose:hover .price-list .duo {
+.choose-plan > .container > .row > .choose:hover.price-list p:nth-child(2) {
   color: #fff;
 }
 

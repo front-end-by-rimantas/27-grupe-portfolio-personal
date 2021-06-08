@@ -1,54 +1,64 @@
 .feedback-container {
   background: var(--color-lightGrey);
-  padding: 0;
+  padding: 50px;
+  position: relative;
 }
+
+.Fb-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 50px;
+  width: 100%;
+  grid-gap: 30px;
+  background: var(--color-lightGrey);
+  padding: 26px 30px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+}
+
 .Fb-flex-row {
   flex-direction: column;
   justify-content: center;
   float: none;
 }
-.fb-coment {
-  justify-content: center;
-  text-align: center;
+.Fb-grid-container > .fb-coment {
   line-height: 1, 6em;
   font-size: 13px;
   font-weight: 100;
+  padding: 30px;
 
   background: var(--color-primary);
   color: var(--color-grey);
 }
+.Fb-grid-container > .fb-coment > .coment-title {
+  color: var(--color-dark);
+}
+.imgRow {
+  display: ;
+}
 
 .fbImg {
+  display: ;
   float: left;
   width: 34px;
-}
-.Fb-grid-container {
-  display: grid;
-  text-align: center;
-  grid-template-columns: 1fr 1fr 50px;
-  width: 100%;
-  grid-gap: 30px;
-  background: var(--color-lightGrey);
-  padding-left: 100px;
-  padding-bottom: 100px;
-  
-  
- 
 }
 
 .Fb-grid-container > div {
   background-color: var(--color-primary);
-  text-align: center;
- 
+  text-align: justify;
+}
 
 .fbBtn {
-  line-height: 25px;
-  margin-left: ;
+  background-color: white;
+  border-width: 1px;
+  line-height: px;
+  padding: 10px;
 }
 .fbBtn:hover {
   color: blue;
   opacity: 1;
-
 }
 .Fb-btnDown {
+}
+.Fb-grid-container > .fb-coment > .coment-title:hover {
+  color: blue;
 }

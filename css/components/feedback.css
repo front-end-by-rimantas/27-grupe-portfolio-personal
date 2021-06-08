@@ -28,14 +28,14 @@
   color: var(--color-dark);
 }
 .imgRow {
-  display:inline-block;
+  display: inline-block;
   float: left;
   width: 50px;
   height: 100%;
 }
 
 .fbImg {
-  display: inline-block ;
+  display: inline-block;
   float: left;
   width: 34px;
 }
@@ -65,5 +65,5 @@
   .Fb-grid-container {
     display: flex;
     flex-wrap: wrap;
-  
   }
+}

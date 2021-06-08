@@ -11,3 +11,11 @@ function validateEmail(inputText) {
         return false;
     }
 }
+
+/*
+function renderFooter(selector) {
+    const DOM = document.querySelector(selector);
+    const HTML =
+
+}
+*/

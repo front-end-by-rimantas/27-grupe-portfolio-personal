@@ -14,14 +14,9 @@
   padding-left: 100px;
   padding-bottom: 100px;
 }
-
-.Fb-flex-row {
-  flex-direction: column;
-  justify-content: center;
-  float: none;
-}
 .Fb-grid-container > .fb-coment {
-  line-height: 1, 6em;
+  text-align: justify;
+  line-height: 2em;
   font-size: 13px;
   font-weight: 100;
   padding: 30px;
@@ -33,18 +28,21 @@
   color: var(--color-dark);
 }
 .imgRow {
-  display: ;
+  display:inline-block;
+  float: left;
+  width: 50px;
+  height: 100%;
 }
 
 .fbImg {
-  display: ;
+  display: inline-block ;
   float: left;
   width: 34px;
 }
 
 .Fb-grid-container > div {
   background-color: var(--color-primary);
-  text-align: justify;
+  text-align: center;
 }
 
 .fbBtn {
@@ -62,3 +60,10 @@
 .Fb-grid-container > .fb-coment > .coment-title:hover {
   color: blue;
 }
+
+@media (max-width: 800px) {
+  .Fb-grid-container {
+    display: flex;
+    flex-wrap: wrap;
+  
+  }

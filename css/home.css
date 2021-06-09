@@ -184,6 +184,24 @@
 .choose-plan > .container > .row > .section-description p {
   font-size: 14px;
 }
+@media (min-width: 576px) {
+  .choose-plan > .container > .row > .choose {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .choose-plan > .container > .row > .choose {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 992px) {
+  .choose-plan > .container > .row > .choose {
+    width: 25%;
+    margin: 0 auto;
+  }
+}
 /* Choose your plan end */
 
 /* Blog start  */

@@ -12,11 +12,10 @@ function validateEmail(inputText) {
     }
 }
 
-
 function renderFooter(selector) {
     const DOM = document.querySelector(selector);
-    const HTML =
-    /*`<div class="col-12 col-sm-6 col-lg-5 footerAbout">
+    let HTML = `<div class="row footerRow">
+    <div class="col-12 col-sm-6 col-lg-5 footerAbout">
 <h4>About Me</h4>
 <p>We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience</p>
 <p> Copyrights &copy;2020 All rights reserved|This template is made with ♥ By <a href="">Colorlib</a></p>
@@ -40,5 +39,9 @@ function renderFooter(selector) {
             <a href="#" class="fa fa-behance" target="_blank"></a>
         </div>
     </div>
-</div>`
-} */
+</div>`;
+
+    DOM.innerHTML = HTML;
+}
+
+export { renderFooter }

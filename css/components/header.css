@@ -1,4 +1,4 @@
-#header {
+.headerContainer {
   background: var(--color-primary);
   position: sticky;
   top: 0;
@@ -8,6 +8,10 @@
   margin-bottom: 0;
   padding: 15px;
   height: 70px;
+  box-shadow: none;
+}
+.headerContainer .active {
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.4);
 }
 
 #navRow {
@@ -26,7 +30,7 @@
   vertical-align: bottom;
   align-items: center;
   color: black;
-  margin: 12px;
+  margin: 12px 12px 12px 0;
   font-size: 12px;
   font-weight: 250;
   line-height: 15px;
@@ -95,6 +99,7 @@
   display: block;
 }
 .hamburger {
+  display: block;
   background-color: transparent;
   border: none;
   height: 30px;

@@ -14,44 +14,11 @@
 <body>
 
     <!-- Header start -->
-
-    <header class="container" id="header">
-        <div class="row" id="navRow">
-            <div class="col-3">
-                <img class="headerImg" src="./img/headerLogo.png" alt="PORTFOLIO">
-            </div>
-            <div class=" hidden col-8 ml-lg-1  visible-lg  ">
-                <a class="navBar" href="#" style="color: var(--color-blue);">home</a>
-                <a class="navBar" href="#">about</a>
-                <a class="navBar" href="#">services</a>
-                <a class="navBar" href="#">portfolio</a>
-                <a class="navBar" href="#">pricing</a>
-                <div class="navBar dropdown ">
-                    <span>blog <i class="fa fa-angle-down"></i></span>
-                    <div class="dropdown-content">
-                        <p class="navBar">blog home</p>
-                        <p class="navBar">blog single</p>
-                    </div>
-                </div>
-                <div class="navBar dropdown ">
-                    <span>pages <i class="fa fa-angle-down"></i></span>
-                    <div class="dropdown-content">
-                        <p class="navBar">elements</p>
-                        <div class="dropdown2">
-                            <p class="navBar">level 2 <i class="fa fa-angle-right"></i></p>
-                            <div class="dropdown-content2">
-                                <p class="navBar">item 1</p>
-                                <p class="navBar">item 2</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a class="navBar" href="#">contact</a>
-            </div>
-            <div class="col-1 ml-8 visible-md hidden-lg">
-                <button class="hamburger"><i class="fa fa-bars"></i></button>
-            </div>
-
+    <div id="headerSidebar" class="sidebar">
+    </div>
+    <div class="sidebarOverlay"><button class="sidebarClose "><i class="fa fa-close"></i></button></div>
+    <header id=headerContainer class="container headerContainer">
+        <div id="navRow" class="row col-3"></div>
         </div>
     </header>
     <!-- Header end -->
@@ -59,12 +26,12 @@
     <div class="hero container bg-secondary">
         <div class="row">
             <div class="col-12 col-md-6 col-lg-6">
-                <h4 class="headingSmall">This is me</h4>
+                <h4>This is me</h4>
                 <h1 class="section-title left">Philip Gilbert</h1>
                 <p class="section-description left">You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures.</p>
                 <a href="#" class="btn">Discover now</a>
             </div>
-            <img class="heroImg col-10 col-md-6 col-lg-6" src="img/this-is-me.jpg" alt="Photo of Philip Gilbert" />
+            <img class="col-10 ml-1 col-md-6 ml-md-0 col-lg-6" src="img/this-is-me.jpg" alt="Photo of Philip Gilbert" />
         </div>
     </div>
     <!-- Hero end -->
@@ -89,7 +56,7 @@
     <!-- Personal details end -->
 
     <!-- Offered services start  -->
-    <div class="container ">
+    <div class="container">
         <div class="row">
             <div class="col-12">
                 <h1 class="section-title">My Offered Services</h1>
@@ -97,36 +64,6 @@
             </div>
         </div>
         <div class="row offered-services">
-            <div class="col-12 col-md-6 col-lg-4">
-                <div id="icons"><i class="fa fa-pie-chart"></i></div>
-                <a href="#">Web Design</a>
-                <p>“It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.”</p>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-                <div id="icons"><i class="fa fa-desktop"></i></div>
-                <a href="#">Web Development</a>
-                <p>If you are an entrepreneur, you know that your success cannot depend on the opinions of others. Like the wind, opinions.</p>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-                <div id="icons"><i class="fa fa-camera"></i></div>
-                <a href="# ">Photography</a>
-                <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills.</p>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-                <div id="icons"><i class="fa fa-picture-o"></i></div>
-                <a href="#">Clipping Path</a>
-                <p>Hypnosis quit smoking methods maintain caused quite a stir in the medical world over the last two decades. There is a lot of argument.</p>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-                <div id="icons"><i class="fa fa-tablet"></i></div>
-                <a href="#">Apps Interface</a>
-                <p>Do you sometimes have the feeling that you’re running into the same obstacles over and over again? Many of my conflicts.</p>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-                <div id="icons"><i class="fa fa-rocket"></i></div>
-                <a href="#">Graphic Design</a>
-                <p>You’ve heard the expression, “Just believe it and it will come.” Well, technically, that is true, however, ‘believing’ is not just thinking that.</p>
-            </div>
         </div>
     </div>
 
@@ -138,22 +75,6 @@
     <!-- Counter  start  -->
     <div class="container counter">
         <div class="row  ">
-            <div class="col-12 col-sm-12 col-md-6  col-lg-3">
-                <h1 class="countNum">2536</h1>
-                <p class="countText">projects completed</p>
-            </div>
-            <div class="col-12 col-sm-12 col-md-6  col-lg-3">
-                <h1 class="countNum">6784</h1>
-                <p class="countText">happy clients</p>
-            </div>
-            <div class="col-12 col-sm-12 col-md-6  col-lg-3">
-                <h1 class="countNum">2239</h1>
-                <p class="countText">cups of coffee</p>
-            </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                <h1 class="countNum">4334</h1>
-                <p class="countText">real profesionals</p>
-            </div>
         </div>
 
     </div>
@@ -266,24 +187,23 @@
         </div>
     </div>
     <div class="Fb-grid-container">
-        <div class="row Fb-flex-row col-10 ml-1">
-            <div class="col-10 ml-1 col-sm-10 ml-sm-1 col-md-10 ml-md-1 col-lg-10  fb-coment">
+        <div class="  fb-coment">
+            <div class="imgRow">
                 <img class="fbImg" src="./img/fb-lady2.webp" alt="">
-                <p>A purpose is the eternal condition for success. Every former smoker can tell you just how hard it is to stop smoking cigarettes. However.</p>
-                <h2>Carolyn Craig</h2>
-                <p>CEO at Facebook</p>
             </div>
+            <p>A purpose is the eternal condition for success. Every former smoker can tell you just how hard it is to stop smoking cigarettes. However.</p>
+            <h2 class="coment-title">Carolyn Craig</h2>
+            <p>CEO at Facebook</p>
         </div>
-        <div class="row flex-row">
-            <div class="col-12 col-sm-12 ml-sm-0 col-md-10 ml-md-1 col-lg-10  fb-coment">
+        <div class="  fb-coment">
+            <div class="imgRow">
                 <img class="fbImg" src="./img/fb-lady.webp" alt="">
-                <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the bigger the payoff you.</p>
-                <h2>Harriet Maxwell</h2>
-                <p>CEO at Google</p>
             </div>
+            <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the bigger the payoff you.</p>
+            <h2 class="coment-title ">Harriet Maxwell</h2>
+            <p>CEO at Google</p>
         </div>
-        <div class="col-12 col-sm-10 ml-sm-1 col-md-6 ml-md-1 ml-lg-5 col-lg-4">
-
+        <div class="btnRow">
             <button class="fbBtn">
                 <i class="fa fa-arrow-up"></i>
             </button>
@@ -309,7 +229,7 @@
                     <p>For the individuals</p>
                     <div class="price-list">
                         <p>Secure Online Transfer</p>
-                        <p class="duo">Unlimited Styles for interface</p>
+                        <p>Unlimited Styles for interface</p>
                         <p>Reliable Customer Service</p>
                     </div>
                     <h3>£199.00</h3>
@@ -321,7 +241,7 @@
                     <p>For the individuals</p>
                     <div class="price-list">
                         <p>Secure Online Transfer</p>
-                        <p class="duo">Unlimited Styles for interface</p>
+                        <p>Unlimited Styles for interface</p>
                         <p>Reliable Customer Service</p>
                     </div>
                     <h3>£299.00</h3>
@@ -333,7 +253,7 @@
                     <p>For the individuals</p>
                     <div class="price-list">
                         <p>Secure Online Transfer</p>
-                        <p class="duo"> Unlimited Styles for interface</p>
+                        <p> Unlimited Styles for interface</p>
                         <p>Reliable Customer Service</p>
                     </div>
                     <h3>£399.00</h3>
@@ -345,7 +265,7 @@
                     <p>For the individuals</p>
                     <div class="price-list">
                         <p>Secure Online Transfer</p>
-                        <p class="duo">Unlimited Styles for interface</p>
+                        <p>Unlimited Styles for interface</p>
                         <p>Reliable Customer Service</p>
                     </div>
                     <h3>£499.00</h3>
@@ -357,60 +277,8 @@
     <!-- Choose your plan end -->
 
     <!-- Blog start  -->
-    <div class="container blog" style="background:var(--color-lightGrey">
-        <div class="row sectionRow">
-            <div class="col-12 col-md-6 ml-md-3 col-lg-8 ml-lg-2">
-                <h1 class="section-title">Latest Posts From Our Blog</h1>
-                <p class="section-description">You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving and expanding the business</p>
-            </div>
-        </div>
-        <div class="row blogRow">
-            <div class="col-12 col-md-4 col-lg-4 ">
-                <div class="imgZoom">
-                    <img src="./img/blog1.jpg" class="zImg container-fluid " alt="bigImg">
-                </div>
-                <div class="imgDes">
-                    <div class="author">
-                        <img src="./img/author.jpg" alt="smallImg">
-                        <p>Mark WIENS</p>
-                    </div>
-                    <div class="coments">13Th Dec <i class="fa fa-heart-o"></i>13 <i class="fa fa-comment-o"></i> 04</div>
-                </div>
-                <a href="#" class="blogLink">BREAK THROUGH SELF DOUBT AND FEAR</a>
-                <p class="blogUnder">Dream interpretation has many forms; it can be done be done for the sake of fun, hobby or can be taken up as a serious career.</p>
+    <div id="blog" class="container blog" style="background:var(--color-lightGrey)">
 
-            </div>
-            <div class="col-12 col-md-4 col-lg-4  blogPost">
-                <div class="imgZoom">
-                    <img src="./img/blog2.jpg" class="zImg container-fluid " alt="bigImg">
-                </div>
-                <div class="imgDes">
-                    <div class="author">
-                        <img src="./img/author.jpg" alt="smallImg">
-                        <p>Mark WIENS</p>
-                    </div>
-                    <div class="coments">13Th Dec <i class="fa fa-heart-o"></i>13 <i class="fa fa-comment-o"></i> 04</div>
-                </div>
-                <a href="#" class="blogLink">PORTABLE FASHION FOR YOUNG WOMEN</a>
-                <p class="blogUnder">You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving.</p>
-
-            </div>
-            <div class="col-12 col-md-4 col-lg-4 class=" blogPost">
-                <div class="imgZoom">
-                    <img src="./img/blog 3.jpg" class="zImg container-fluid " alt="bigImg">
-                </div>
-                <div class="imgDes">
-                    <div class="author">
-                        <img src="./img/author.jpg" alt="smallImg">
-                        <p>Mark WIENS</p>
-                    </div>
-                    <div class="coments">13Th Dec <i class="fa fa-heart-o"></i>13 <i class="fa fa-comment-o"></i> 04</div>
-                </div>
-                <a href="#" class="blogLink">DO DREAMS SERVE AS A PREMONITION</a>
-                <p class="blogUnder">So many of us are demotivated to achieve anything. Such people are not enthusiastic about anything. They don’t want to work involved.</p>
-
-            </div>
-        </div>
     </div>
 
     <!-- Blog end -->

@@ -78,3 +78,15 @@
   height: 2px;
   background: #000000;
 }
+.vector {
+  display: block;
+}
+.raster {
+  display: block;
+}
+.ui {
+  display: block;
+}
+.printing {
+  display: block;
+}

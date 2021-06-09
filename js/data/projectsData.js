@@ -18,7 +18,7 @@ const projectsData = [
         alt: 'Creative Poster Design',
         title: 'Creative Poster Design',
         text: 'Agency',
-        category: 'ui/ux',
+        category: 'ui',
     },
     {
         img: './img/Embased Logo Design.jpg',

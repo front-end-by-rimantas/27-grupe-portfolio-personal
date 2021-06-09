@@ -171,7 +171,10 @@
   font-weight: 100;
   letter-spacing: 1px;
 }
-
+@media(max-width: 767px){
+.counter{
+ height :500px;
+} 
 /* Counter end */
 
 /* Latest featured projects start  */

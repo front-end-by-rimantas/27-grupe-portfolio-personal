@@ -6,7 +6,10 @@ function renderSidebar(selector, data) {
 
     for (const nav of data)
         HTML += `<a class="navBar" href="${nav.href}">${nav.name}</a>`;
-    DOM.innerHTML = HTML;
+    DOM.innerHTML = HTML
+    // document.querySelector(navBar).style.color = 'red';
+
 }
+
 
 export { renderSidebar }

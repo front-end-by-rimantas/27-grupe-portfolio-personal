@@ -7,11 +7,11 @@ function shadow() {
 
         if (scrollY >= 80) {
             console.log('daugiau');
-            headerContainer.classList.add('activ')
+            headerContainer.classList.add('shadow')
         }
         else {
             console.log('maziau');
-            headerContainer.classList.remove('activ')
+            headerContainer.classList.remove('shadow')
         }
 
     })

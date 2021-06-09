@@ -3,6 +3,7 @@
 }
 .title p {
   text-align: center;
+  color: var(--color-grey);
 }
 .portfolio_title h4 {
   padding: 10px;
@@ -59,4 +60,10 @@
   margin-left: auto;
   margin-right: auto;
   width: 20%;
+}
+.single_portfolio a {
+  text-decoration: none;
+}
+.title-project {
+  padding-bottom: 0;
 }

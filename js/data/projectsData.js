@@ -1,39 +1,46 @@
-const projects = [
+const projectsData = [
     {
-        img: '2D vinyl design.jpg',
+        img: './img/2D Vinyl Desing.jpg',
+        alt: 'Vinyl design',
         title: '2D vinyl design',
         text: 'vector',
         category: 'vector',
     },
     {
-        img: '2D vinyl design 2',
+        img: './img/2D Vinyl Desing 2.jpg',
+        alt: 'Vinyl design',
         title: '2D vinyl design',
         text: 'vector',
         category: 'raster',
     },
     {
-        img: 'Creative Poster Design',
+        img: './img/Creative Poster Design.jpg',
+        alt: 'Creative Poster Design',
         title: 'Creative Poster Design',
         text: 'Agency',
         category: 'ui/ux',
     },
     {
-        img: 'Embased Logo Design',
+        img: './img/Embased Logo Design.jpg',
+        alt: 'Embased Logo Design',
         title: 'Embased Logo Design',
         text: 'Portal',
         category: 'printing',
     },
     {
-        img: '3D Helmet Design',
+        img: './img/3D Helmet Desing.jpg',
+        alt: '3D Helmet Design',
         title: '3D Helmet Design',
         text: 'vector',
         category: 'vector',
     },
     {
-        img: '2D vinyl design 3',
+        img: './img/2D Vinyl Desing 3.jpg',
+        alt: '2D vinyl design',
         title: '2D vinyl design',
         text: 'raster',
         category: 'raster',
     },
 ];
-export { projects }
+
+export { projectsData }

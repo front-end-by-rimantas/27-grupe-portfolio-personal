@@ -9,12 +9,17 @@ import { offeredServices } from './components/offeredServices/offeredServices.js
 import { offeredData } from './data/offeredServicesData.js'
 import { counter } from './components/counter/counter.js';
 import { counterData } from './data/counterData/counterData.js'
+import { renderCategories } from './components/projects/CategoriesRender.js'
+import { renderProjects } from './components/projects/projects.js';
+import { projectsData } from './data/projectsData.js'
 
 
 // EXECUTION
 renderHeader('#navRow');
+renderCategories('#categories')
 shadow();
 renderSidebar('#headerSidebar', navBarData)
+renderProjects('#categoriesPic', projectsData)
 renderBlog('#blog');
 header();
 new offeredServices(offeredData);

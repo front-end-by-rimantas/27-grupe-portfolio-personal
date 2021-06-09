@@ -1,6 +1,7 @@
 .headerContainer {
   background: var(--color-primary);
   position: sticky;
+  z-index: 3;
   top: 0;
   text-align: center;
   margin-top: 0;
@@ -11,7 +12,7 @@
   box-shadow: none;
 }
 .headerContainer.shadow {
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
   transition: all 1s ease-out;
 }
 

@@ -152,18 +152,13 @@
 
 /* Counter  start  */
 .counter {
-  position: relative;
   background: var(--color-gradient);
   text-align: center;
   text-transform: capitalize;
-  height: 400px;
+  height: 330px;
 }
 .counter .row {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0;
+  margin-top: 65px;
 }
 
 .countNum {

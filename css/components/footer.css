@@ -1,0 +1,70 @@
+.footerContainer {
+  background: black;
+}
+.row .footerRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footerRow h4 {
+  margin-bottom: 25px;
+  color: #fff;
+}
+.footerRow p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: var(--color-grey);
+}
+.footerAbout p a {
+  text-decoration: none;
+  color: var(--color-blue);
+}
+.news {
+}
+.footerAbout {
+}
+.footerSocials {
+  display: flex;
+  gap: 10px;
+  justify-content: left;
+}
+.footerSocials a {
+  text-decoration: none;
+  color: #fff;
+}
+.footerContainer .emailForm {
+  display: flex;
+}
+.emailFooter {
+  border: none;
+  flex-flow: row;
+  flex-grow: 1;
+  padding: 10px 30px 10px 10px;
+  background-color: var(--color-lightGrey);
+}
+.btnFooter {
+  border: none;
+  background: var(--color-gradient);
+  padding: 8px 15px 12px;
+}
+.btnFooter .fa {
+  transform: translateY(25%);
+  color: white;
+}
+footerFollow {
+}
+.footerContainer .footerRow .wrapui .col-md-12 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-lg-5 .news {
+  flex: 1 0 40%;
+}
+.col-lg-5 .footerAbout {
+  flex: 0 0 40%;
+}
+.col-md-6 .news {
+  flex: 1 0 100%;
+}
+.col-md-6 .footerAbout {
+  flex: 0 0 100%;
+}

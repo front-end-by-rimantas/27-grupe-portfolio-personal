@@ -101,3 +101,6 @@
   color: #000;
   font-weight: 600;
 }
+.choose-plan > .container > .row > .section-description p {
+  font-size: 14px;
+}

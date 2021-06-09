@@ -45,3 +45,7 @@
   background: rgba(0, 0, 0, 0.6);
   display: none;
 }
+
+.sidebar a:first-of-type {
+  color: var(--color-blue);
+}

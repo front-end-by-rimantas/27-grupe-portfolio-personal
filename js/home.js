@@ -12,6 +12,7 @@ import { counterData } from './data/counterData/counterData.js'
 import { renderCategories } from './components/projects/CategoriesRender.js'
 import { renderProjects } from './components/projects/projects.js';
 import { projectsData } from './data/projectsData.js'
+import { filter } from './components/projects/projectsFilter.js';
 
 
 // EXECUTION
@@ -22,6 +23,7 @@ renderSidebar('#headerSidebar', navBarData)
 renderProjects('#categoriesPic', projectsData)
 renderBlog('#blog');
 header();
+filter();
 new offeredServices(offeredData);
 new counter(counterData)
 

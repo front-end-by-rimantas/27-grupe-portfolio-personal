@@ -10,7 +10,7 @@ const projectsData = [
         img: './img/2D Vinyl Desing 2.jpg',
         alt: 'Vinyl design',
         title: '2D vinyl design',
-        text: 'vector',
+        text: 'raster',
         category: 'raster',
     },
     {

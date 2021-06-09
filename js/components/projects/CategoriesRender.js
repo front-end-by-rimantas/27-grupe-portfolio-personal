@@ -7,16 +7,16 @@ function renderCategories(selector) {
 
     HTML += ` <div class="row">
             <div class="categories">
-                <ul>
-                    <li class="active" data-filter="all">All</li>
-                    <li data-filter="vector">VECTOR</li>
-                    <li data-filter="raster">RASTER</li>
-                    <li data-filter="ui/ux">UI/UX</li>
-                    <li data-filter="printing">PRINTING</li>
-                </ul>
+                    <button class="active allFilter" >All</button>
+                    <button class="vectorFilter">VECTOR</button>
+                    <button class="rasterFilter">RASTER</button>
+                    <button class="uiFilter">UI/UX</button>
+                    <button class="printingFilter">PRINTING</button>
             </div>
         </div>`;
     DOM.innerHTML = HTML;
+
+
 }
 export { renderCategories }
 

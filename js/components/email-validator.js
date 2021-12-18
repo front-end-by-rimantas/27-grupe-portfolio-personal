@@ -12,4 +12,4 @@ function validateEmail(inputText) {
     }
 }
 
-export { renderFooter }
+export { validateEmail }

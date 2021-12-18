@@ -18,6 +18,11 @@
 @import './components/sidebar.css';
 @import './components/client-carousel.css';
 @import './components/Offered-services.css';
+@import './components/hero.css';
+@import './components/personal.css';
+@import './components/counter.css';
+@import './components/blog.css';
+@import './components/footer.css';
 
 /* CUSTOM STYLES FOR HOME PAGE GOES BELOW THIS COMMENT */
 
@@ -25,156 +30,15 @@
 /* Header end */
 
 /* Hero start  */
-.hero {
-  margin-bottom: 0;
-  padding-bottom: 0;
-  padding-top: 30px;
-}
-
-.hero .row {
-  margin-bottom: 0;
-}
-
-.hero .col-12 {
-  margin-bottom: 60px;
-}
-
-.hero h4 {
-  text-transform: uppercase;
-  font-weight: lighter;
-  padding-bottom: 10px;
-}
-
-.hero h1 {
-  text-transform: uppercase;
-  font-size: 30px;
-}
-
-.hero p {
-  font-size: 14px;
-  margin-bottom: 20px;
-  color: #777777;
-}
-
-.hero img {
-  object-fit: cover;
-  float: left;
-  margin-left: 0;
-}
-
-/* hero responsive features */
-
-@media (min-width: 575px) {
-  .hero {
-    padding-top: 20px;
-  }
-
-  .hero .col-12 {
-    margin-bottom: 10px;
-  }
-}
-
-@media (min-width: 767px) {
-  .hero {
-    padding-top: 60px;
-  }
-
-  .hero .row {
-    display: flex;
-    align-items: center;
-  }
-}
-
-@media (min-width: 991px) {
-  .hero > .row h1 {
-    font-size: 55px;
-  }
-
-  .hero .row {
-    display: inline-block;
-  }
-
-  .hero .col-12 {
-    margin-top: 8%;
-  }
-}
-
 /* Hero end */
 
 /* Personal details start  */
-.personalD {
-  padding-top: 10px;
-  padding-bottom: 0;
-}
-
-.personalD > .row {
-  margin-bottom: 0;
-}
-
-.personalD > .row > div.col-12 {
-  padding-bottom: 50px;
-  margin-top: 0;
-}
-
-.personalD > .row > div.col-md-6.col-lg-6 {
-  padding-bottom: 50px;
-  margin-top: 5%;
-}
-
-.personalD > .row > div > .titleSmall {
-  text-transform: uppercase;
-  font-weight: lighter;
-  font-size: 14px;
-  padding-bottom: 30px;
-}
-.personalD > .row > div > .titleBig {
-  text-transform: uppercase;
-  padding-bottom: 25px;
-}
-
-.personalD > .row > div > .PDparagraph {
-  font-size: 14px;
-  padding-bottom: 30px;
-  color: var(--color-grey);
-}
-.personalD > .row > .PDimg {
-  object-fit: cover;
-  float: left;
-  padding: 15px 0px 0px 20px;
-  margin-right: 0px;
-  border: 18px solid #fcfbff;
-  border-radius: 20px;
-}
 /* Personal details end */
 
 /* Offered services start  */
 /* Offered services end */
 
 /* Counter  start  */
-.counter {
-  background: var(--color-gradient);
-  text-align: center;
-  text-transform: capitalize;
-  height: 330px;
-}
-.counter .row {
-  margin-top: 65px;
-}
-
-.countNum {
-  color: #fff;
-  font-size: 35px;
-}
-.countText {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 100;
-  letter-spacing: 1px;
-}
-@media(max-width: 767px){
-.counter{
- height :500px;
-} 
 /* Counter end */
 
 /* Latest featured projects start  */
@@ -184,6 +48,7 @@
 /* Client's feedback end */
 
 /* Choose your plan start */
+
 .choose-plan > .container > .row > .section-description p {
   font-size: 14px;
 }
@@ -205,142 +70,14 @@
     margin: 0 auto;
   }
 }
+
 /* Choose your plan end */
 
 /* Blog start  */
-.container .blog {
-  padding-bottom: 120px;
-}
-
-.zImg {
-  padding: 0;
-  transition: transform 0.5s ease;
-}
-.imgZoom {
-  overflow: hidden;
-}
-
-.zImg:hover {
-  padding: 0;
-  transform: scale(1.2);
-}
-
-.imgDes {
-  border-bottom: 1px solid lightgray;
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 30px;
-}
-.author {
-  font-weight: 500;
-  display: flex;
-  font-size: 13px;
-}
-.author p {
-  padding: 8px;
-}
-.author img {
-  height: 30px;
-  width: 30px;
-}
-.coments .fa {
-  transform: translateY(15%);
-  margin-left: 10px;
-  color: #b9babd;
-}
-.coments {
-  padding: 8px;
-  display: flex;
-  font-size: 13px;
-}
-.blogLink {
-  text-decoration: None;
-  color: black;
-  font-weight: 900;
-  font-size: 20px;
-  text-transform: uppercase;
-}
-.blogUnder {
-  font-size: 14px;
-  margin-top: 15px;
-}
-
 /* Blog end */
 
 /* Carusel 2/labels start  */
 /* Carusel 2/labels end */
 
 /* Footer start  */
-.footerContainer {
-  background: black;
-}
-.row .footerRow {
-  display: flex;
-  flex-wrap: wrap;
-}
-.footerRow h4 {
-  margin-bottom: 25px;
-  color: #fff;
-}
-.footerRow p {
-  font-size: 14px;
-  margin-bottom: 15px;
-  color: var(--color-grey);
-}
-.footerAbout p a {
-  text-decoration: none;
-  color: var(--color-blue);
-}
-.news {
-}
-.footerAbout {
-}
-.footerSocials {
-  display: flex;
-  gap: 10px;
-  justify-content: left;
-}
-.footerSocials a {
-  text-decoration: none;
-  color: #fff;
-}
-.footerContainer .emailForm {
-  display: flex;
-}
-.emailFooter {
-  border: none;
-  flex-flow: row;
-  flex-grow: 1;
-  padding: 10px 30px 10px 10px;
-  background-color: var(--color-lightGrey);
-}
-.btnFooter {
-  border: none;
-  background: var(--color-gradient);
-  padding: 8px 15px 12px;
-}
-.btnFooter .fa {
-  transform: translateY(25%);
-  color: white;
-}
-footerFollow {
-}
-.footerContainer .footerRow .wrapui .col-md-12 {
-  display: flex;
-  flex-wrap: wrap;
-}
-.col-lg-5 .news {
-  flex: 1 0 40%;
-}
-.col-lg-5 .footerAbout {
-  flex: 0 0 40%;
-}
-.col-md-6 .news {
-  flex: 1 0 100%;
-}
-.col-md-6 .footerAbout {
-  flex: 0 0 100%;
-}
-
 /* Footer end */ ;

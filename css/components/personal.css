@@ -1,0 +1,43 @@
+.personalD {
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+.personalD > .row {
+  margin-bottom: 0;
+}
+
+.personalD > .row > div.col-12 {
+  padding-bottom: 50px;
+  margin-top: 0;
+}
+
+.personalD > .row > div.col-md-6.col-lg-6 {
+  padding-bottom: 50px;
+  margin-top: 5%;
+}
+
+.personalD > .row > div > .titleSmall {
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+.personalD > .row > div > .titleBig {
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
+
+.personalD > .row > div > .PDparagraph {
+  font-size: 14px;
+  padding-bottom: 30px;
+  color: var(--color-grey);
+}
+.personalD > .row > .PDimg {
+  object-fit: cover;
+  float: left;
+  padding: 15px 0px 0px 20px;
+  margin-right: 0px;
+  border: 18px solid #fcfbff;
+  border-radius: 20px;
+}

@@ -1,3 +1,6 @@
+#categories {
+  padding: 0 10px;
+}
 .title h1 {
   text-align: center;
 }
@@ -15,16 +18,21 @@
   margin-bottom: 1rem;
   text-align: center;
 }
-.categories ul li {
+.categories button {
   display: inline-block;
   position: relative;
   color: #000000;
   padding: 15px 15px;
+  border: none;
+  background-color: white;
 }
-.categories ul li.active {
-  background: var(--color-gradient);
+.categories button:hover {
+  cursor: pointer;
 }
-.categories ul {
+.categories button.active {
+  color: var(--color-blue);
+}
+.categories {
   text-align: center;
 }
 .images {
@@ -66,4 +74,24 @@
 }
 .title-project {
   padding-bottom: 0;
+}
+.categories button::after {
+  content: '';
+  display: block;
+  width: 15px;
+  position: absolute;
+  height: 2px;
+  background: #000000;
+}
+.vector {
+  display: block;
+}
+.raster {
+  display: block;
+}
+.ui {
+  display: block;
+}
+.printing {
+  display: block;
 }

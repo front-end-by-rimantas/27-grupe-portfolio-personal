@@ -1,0 +1,57 @@
+.container .blog {
+  padding-bottom: 120px;
+}
+
+.zImg {
+  padding: 0;
+  transition: transform 0.5s ease;
+}
+.imgZoom {
+  overflow: hidden;
+}
+
+.zImg:hover {
+  padding: 0;
+  transform: scale(1.2);
+}
+
+.imgDes {
+  border-bottom: 1px solid lightgray;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.author {
+  font-weight: 500;
+  display: flex;
+  font-size: 13px;
+}
+.author p {
+  padding: 8px;
+}
+.author img {
+  height: 30px;
+  width: 30px;
+}
+.coments .fa {
+  transform: translateY(15%);
+  margin-left: 10px;
+  color: #b9babd;
+}
+.coments {
+  padding: 8px;
+  display: flex;
+  font-size: 13px;
+}
+.blogLink {
+  text-decoration: None;
+  color: black;
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.blogUnder {
+  font-size: 14px;
+  margin-top: 15px;
+}
